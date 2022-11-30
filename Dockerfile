@@ -1,4 +1,4 @@
-FROM node:12-buster
+FROM node:14-buster
 RUN mkdir -p /srv/app
 WORKDIR /srv/app
 COPY package.json yarn.lock ./
